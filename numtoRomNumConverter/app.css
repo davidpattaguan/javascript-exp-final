@@ -1,0 +1,39 @@
+
+
+#numtoRomNumContainer{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	align-content: center;
+	height:90vh;
+	padding: 2rem;
+}
+
+#numToRomConvertedCard{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-color: rgb(71, 71, 71);
+	color: black;
+	padding: 2rem;
+	border-radius: 10px;
+	width: 20rem;
+	margin: 0rem 0rem 2rem;
+	font-weight: bold;
+	font-size: 5rem;
+}
+
+#convertNumber{
+	margin: 1rem 0rem 1rem;
+	padding: 0.7rem;
+	border-radius: 1rem;
+	border:none;
+	background-color: rgb(36, 36, 36);
+	color: white;
+}
+
+#displayConvertedNumber{
+	color: white;
+	padding: 2rem 0rem 0rem;
+}

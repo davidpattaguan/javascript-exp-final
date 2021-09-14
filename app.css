@@ -1,0 +1,106 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,700;1,400&display=swap');
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	line-height: 1;
+	font-family: Poppins, sans-serif;
+	background-color: rgb(27, 27, 27);
+    
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Card */
+
+.card{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	vertical-align: middle;
+	margin: 1rem 0rem 1rem;
+	background-color: white;
+	height: 7rem;
+	padding: 1rem;
+	border-radius: 20px;
+	width: 100%;
+}
+
+.card-title{
+	font-size: 5rem;
+	font-weight: 700;
+}
+
+.card-body{
+	display: flex;
+	justify-content: left;
+	align-items: center;
+	padding: 0;
+	vertical-align: middle;
+	margin: 0rem 0.2rem 0rem;
+}
+
+.card-body > p{
+	width: 100%;
+	margin: 0rem 2rem 0rem;
+	font-size: 1.5rem;
+}
+
+.card-body > a{
+	background-color: rgb(41, 41, 41);
+	padding: 0.7rem 1rem 0.7rem;
+	text-decoration: none;
+	color: rgb(255, 255, 255);
+	border-radius: 10px;
+}
+
+h1{
+	color: white;
+}
